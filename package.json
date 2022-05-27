@@ -7,7 +7,6 @@
     "node": "14.17.0"
   },
   "dependencies": {
-    "@brainhubeu/react-carousel": "^2.0.4",
     "@craco/craco": "^5.9.0",
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free": "^5.15.4",
@@ -31,11 +30,9 @@
     "web3modal": "^1.9.7"
   },
   "scripts": {
-    "dev": "craco start",
-    "start": "serve -s build",
+    "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "heroku-postbuild": "npm run build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
