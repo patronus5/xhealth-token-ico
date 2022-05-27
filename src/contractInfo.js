@@ -188,7 +188,7 @@ export const tokenInfo = {
 }
 
 export const contractInfo = {
-	address: "0x756E768579694cc5362bcfa2e7a607C378A4d895",
+	address: "0x7b82EC1F02EF9FCaF482200bd072Cd4398e59e87",
 	abi: [
 		{
 		  "inputs": [
