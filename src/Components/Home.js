@@ -4,7 +4,7 @@ import eventBus from './EventBus'
 let xHealthPrice = 10, approved = false;
 
 function Home(props) {
-    const [isApproved, setIsApproved] = useState(false)
+    // const [isApproved, setIsApproved] = useState(false)
     const [isConnected, setIsConnected] = useState(false)
     const [usdcBalance, setUSDCBalance] = useState(0)
     const [valueOfUSDC, setValueOfUSDC] = useState(0.0)
@@ -56,7 +56,7 @@ function Home(props) {
     }
 
     const stateUpdated = (data) => {
-        setIsApproved(data.isApproved)
+        // setIsApproved(data.isApproved)
         setUSDCBalance(data.usdcBalance)
         setXHealthBalance(data.xHealthBalance)
     }
@@ -88,8 +88,8 @@ function Home(props) {
                                 <h1>Welcome to the<br></br> presale of <span className="red-clr">xHEALTH</span></h1>
                                 <p>Mint Clinics<span className="red-clr">.</span> Build Hospitals<span className="red-clr">.</span><br></br>Earn <span className="red-clr">xHEALTH</span></p>
                                 <div className="hero-btns d-flex align-items-center">
-                                    <a href="#" className="m-btn btn--primary">WHITEPAPER</a>
-                                    <a href="#" className="m-btn btn--primary" onClick={() => input_ref.current.value=""} data-bs-toggle="modal" data-bs-target="#xHEALTHModal">Get $xHEALTH</a>
+                                    <a href="/" className="m-btn btn--primary">WHITEPAPER</a>
+                                    <button className="m-btn btn--primary" onClick={() => input_ref.current.value=""} data-bs-toggle="modal" data-bs-target="#xHEALTHModal">Get $xHEALTH</button>
                                 </div>
                             </div>
                             <div className="col-xl-6 col-md-12">
