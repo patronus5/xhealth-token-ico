@@ -85,7 +85,7 @@ function Home(props) {
                     <div className="container-fluid alignment">
                         <div className="row align-items-center">
                             <div className="col-xl-6 col-md-12">
-                                <h1>Welcome to the<br></br> presale of <span className="red-clr">xHEALTH</span></h1>
+                                <h1>Welcome to the<br></br> presale of <span className="red-clr">xHEALTH</span>.</h1>
                                 <p>Mint Clinics<span className="red-clr">.</span> Build Hospitals<span className="red-clr">.</span><br></br>Earn <span className="red-clr">xHEALTH</span></p>
                                 <div className="hero-btns d-flex align-items-center">
                                     <a href="/" className="m-btn btn--primary">WHITEPAPER</a>

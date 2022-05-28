@@ -1,5 +1,5 @@
 export const tokenInfo = {
-	address: "0x08a978a0399465621e667C49CD54CC874DC064Eb",
+	address: "0x30452fd1842062c8726d31999317d4297ddC5696",
 	abi: [
 		{
 		  "anonymous": false,

@@ -72,13 +72,6 @@ class Container extends React.Component {
             console.error("An error occurred: " + err)
         }
         else if (accounts.length !== 0 ) {
-            // if(await web3.eth.getChainId() !== 56) {
-            //   await window.ethereum.request({
-            //     method: 'wallet_switchEthereumChain',
-            //     params: [{ chainId: '0x38' }]
-            //   });
-            // }
-
             this.setState({
               address: accounts[0],
               isConnected: true
